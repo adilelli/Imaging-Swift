@@ -1,0 +1,49 @@
+.DS_Store
+.AppleDouble
+
+# Xcode
+*.xcworkspace
+xcuserdata/
+DerivedData/
+*.xcscmblueprint
+*.xccheckout
+
+# Build
+build/
+*.app
+*.ipa
+*.dSYM
+*.xcarchive
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Sensitive Info
+*.key
+*.crt
+*.pem
+*.mobileprovision
+*.certSigningRequest
+*.p8
+*.p12
+*.entitlements
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots/
+fastlane/test_output/
+.fastlane/
+
+# Development Tools
+.vscode/
+*.swp
+*.tmp

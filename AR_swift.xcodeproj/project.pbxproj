@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1128755F2CCBDAEA001FE3F5 /* CubeARViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128755E2CCBDAEA001FE3F5 /* CubeARViewPage.swift */; };
+		1174FF552CFE0C9300359E00 /* UploadARImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174FF542CFE0C9300359E00 /* UploadARImage.swift */; };
+		11DA7B172CBFE9C9004AFCF9 /* APIFetchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DA7B162CBFE9C9004AFCF9 /* APIFetchView.swift */; };
+		11DA7B192CBFEA0B004AFCF9 /* ARViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DA7B182CBFEA0B004AFCF9 /* ARViewPage.swift */; };
+		11E90F772CE88AF100A71D5E /* OCRCameraViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E90F762CE88AF100A71D5E /* OCRCameraViewPage.swift */; };
 		11F2D33C2CBFE5E700876AF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2D33B2CBFE5E700876AF3 /* AppDelegate.swift */; };
 		11F2D33E2CBFE5E700876AF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2D33D2CBFE5E700876AF3 /* ContentView.swift */; };
 		11F2D3402CBFE5E900876AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F2D33F2CBFE5E900876AF3 /* Assets.xcassets */; };
@@ -14,6 +19,7 @@
 		11F2D34D2CBFE5E900876AF3 /* AR_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2D34C2CBFE5E900876AF3 /* AR_swiftTests.swift */; };
 		11F2D3572CBFE5E900876AF3 /* AR_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2D3562CBFE5E900876AF3 /* AR_swiftUITests.swift */; };
 		11F2D3592CBFE5E900876AF3 /* AR_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2D3582CBFE5E900876AF3 /* AR_swiftUITestsLaunchTests.swift */; };
+		11FBEB812CDF0A960087598C /* OCRViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FBEB802CDF0A960087598C /* OCRViewPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1128755E2CCBDAEA001FE3F5 /* CubeARViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeARViewPage.swift; sourceTree = "<group>"; };
+		1174FF542CFE0C9300359E00 /* UploadARImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadARImage.swift; sourceTree = "<group>"; };
+		11DA7B162CBFE9C9004AFCF9 /* APIFetchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFetchView.swift; sourceTree = "<group>"; };
+		11DA7B182CBFEA0B004AFCF9 /* ARViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewPage.swift; sourceTree = "<group>"; };
+		11E90F762CE88AF100A71D5E /* OCRCameraViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRCameraViewPage.swift; sourceTree = "<group>"; };
 		11F2D3382CBFE5E700876AF3 /* AR_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F2D33B2CBFE5E700876AF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11F2D33D2CBFE5E700876AF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +55,7 @@
 		11F2D3522CBFE5E900876AF3 /* AR_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AR_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F2D3562CBFE5E900876AF3 /* AR_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_swiftUITests.swift; sourceTree = "<group>"; };
 		11F2D3582CBFE5E900876AF3 /* AR_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11FBEB802CDF0A960087598C /* OCRViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRViewPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +108,14 @@
 			children = (
 				11F2D33B2CBFE5E700876AF3 /* AppDelegate.swift */,
 				11F2D33D2CBFE5E700876AF3 /* ContentView.swift */,
+				11DA7B182CBFEA0B004AFCF9 /* ARViewPage.swift */,
+				11DA7B162CBFE9C9004AFCF9 /* APIFetchView.swift */,
 				11F2D33F2CBFE5E900876AF3 /* Assets.xcassets */,
 				11F2D3412CBFE5E900876AF3 /* Preview Content */,
+				1128755E2CCBDAEA001FE3F5 /* CubeARViewPage.swift */,
+				11FBEB802CDF0A960087598C /* OCRViewPage.swift */,
+				11E90F762CE88AF100A71D5E /* OCRCameraViewPage.swift */,
+				1174FF542CFE0C9300359E00 /* UploadARImage.swift */,
 			);
 			path = AR_swift;
 			sourceTree = "<group>";
@@ -257,7 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DA7B172CBFE9C9004AFCF9 /* APIFetchView.swift in Sources */,
+				1174FF552CFE0C9300359E00 /* UploadARImage.swift in Sources */,
 				11F2D33E2CBFE5E700876AF3 /* ContentView.swift in Sources */,
+				11E90F772CE88AF100A71D5E /* OCRCameraViewPage.swift in Sources */,
+				11DA7B192CBFEA0B004AFCF9 /* ARViewPage.swift in Sources */,
+				1128755F2CCBDAEA001FE3F5 /* CubeARViewPage.swift in Sources */,
+				11FBEB812CDF0A960087598C /* OCRViewPage.swift in Sources */,
 				11F2D33C2CBFE5E700876AF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,13 +449,16 @@
 				DEVELOPMENT_TEAM = 985LZH765U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_CFBundleDisplayName = Cerdas;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access to provide augmented reality experiences.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Use";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,13 +483,16 @@
 				DEVELOPMENT_TEAM = 985LZH765U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_CFBundleDisplayName = Cerdas;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access to provide augmented reality experiences.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Use";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
