@@ -3,6 +3,7 @@ import UIKit
 
 struct PostImageView: View {
     @State private var name: String = ""
+    @State private var description: String = ""
     @State private var selectedImage: UIImage? = nil
     @State private var showImagePicker = false
     @State private var showCamera = false
@@ -14,6 +15,11 @@ struct PostImageView: View {
             VStack(spacing: 20) {
 //                 Text Field for Name
                 TextField("Enter your name", text: $name)
+                    .padding()
+                    .background(Color(.secondarySystemBackground))
+                    .cornerRadius(8)
+                
+                TextField("Enter your name", text: $description)
                     .padding()
                     .background(Color(.secondarySystemBackground))
                     .cornerRadius(8)
@@ -102,7 +108,7 @@ struct PostImageView: View {
         }
         
         let boundary = UUID().uuidString
-        var request = URLRequest(url: URL(string: "https://f3df-219-92-198-46.ngrok-free.app/upload")!)
+        var request = URLRequest(url: URL(string: "https://743d-219-92-198-46.ngrok-free.app/upload")!)
         request.httpMethod = "POST"
         request.setValue("multipart/form-data; boundary=\(boundary)", forHTTPHeaderField: "Content-Type")
         
@@ -114,6 +120,12 @@ struct PostImageView: View {
             body.append("--\(boundary)\r\n".data(using: .utf8)!)
             body.append("Content-Disposition: form-data; name=\"name\"\r\n\r\n".data(using: .utf8)!)
             body.append("\(name)\r\n".data(using: .utf8)!)
+        }
+        
+        if !description.isEmpty {
+            body.append("--\(boundary)\r\n".data(using: .utf8)!)
+            body.append("Content-Disposition: form-data; name=\"description\"\r\n\r\n".data(using: .utf8)!)
+            body.append("\(description)\r\n".data(using: .utf8)!)
         }
 
         // Add Image File

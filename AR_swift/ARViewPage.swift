@@ -6,7 +6,7 @@ struct ARViewPage: UIViewRepresentable {
 //    let imageUrls: [URL] // Array of image URLs
     @Binding var imagesLoaded: Bool
     let files: [String]
-    let url = URL(string: "https://f3df-219-92-198-46.ngrok-free.app/uploads")
+    let url = URL(string: "https://743d-219-92-198-46.ngrok-free.app/uploads")
 
     func makeUIView(context: Context) -> ARSCNView {
         let sceneView = ARSCNView(frame: .zero)
@@ -58,7 +58,7 @@ struct ARViewPage: UIViewRepresentable {
                 return
             }
 
-            for (index, anchor) in anchors.enumerated() {
+            for (_, anchor) in anchors.enumerated() {
                 guard let imageAnchor = anchor as? ARImageAnchor else { continue }
 
                 // Introduce a delay to allow the anchor node to become available in the scene

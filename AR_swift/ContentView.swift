@@ -65,6 +65,16 @@ struct ContentView: View {
                         .cornerRadius(10)
                         .frame(width: 250)
                 }
+                
+                // Cube AR Page Button
+                NavigationLink(destination: ViewCardSwiftUI()) {
+                    Text("View Card")
+                        .padding()
+                        .background(Color.purple)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                        .frame(width: 250)
+                }
 
 //                // Display message once the image is loaded
 //                if imageLoaded {
