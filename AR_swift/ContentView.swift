@@ -12,7 +12,7 @@ struct ContentView: View {
                     .padding()
 
                 // Fetch Data from API Button
-                NavigationLink(destination: APIFetchView()) {
+                NavigationLink(destination: LocalFetchView()) {
                     Text("Fetch AR")
                         .padding()
                         .background(Color.orange)
@@ -57,7 +57,7 @@ struct ContentView: View {
 //                }
                 
                 // Cube AR Page Button
-                NavigationLink(destination: PostImageView()) {
+                NavigationLink(destination: PostImageViewLocal()) {
                     Text("Upload AR Image")
                         .padding()
                         .background(Color.green)

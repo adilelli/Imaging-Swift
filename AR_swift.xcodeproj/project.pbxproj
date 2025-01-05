@@ -3,15 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1128755F2CCBDAEA001FE3F5 /* ViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1128755E2CCBDAEA001FE3F5 /* ViewCard.swift */; };
-		1174FF552CFE0C9300359E00 /* UploadARImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174FF542CFE0C9300359E00 /* UploadARImage.swift */; };
-		11DA7B172CBFE9C9004AFCF9 /* APIFetchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DA7B162CBFE9C9004AFCF9 /* APIFetchView.swift */; };
-		11DA7B192CBFEA0B004AFCF9 /* ARViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DA7B182CBFEA0B004AFCF9 /* ARViewPage.swift */; };
-		11E90F772CE88AF100A71D5E /* OCRCameraViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E90F762CE88AF100A71D5E /* OCRCameraViewPage.swift */; };
 		11F2D33C2CBFE5E700876AF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2D33B2CBFE5E700876AF3 /* AppDelegate.swift */; };
 		11F2D33E2CBFE5E700876AF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2D33D2CBFE5E700876AF3 /* ContentView.swift */; };
 		11F2D3402CBFE5E900876AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F2D33F2CBFE5E900876AF3 /* Assets.xcassets */; };
@@ -21,7 +17,6 @@
 		11F2D3592CBFE5E900876AF3 /* AR_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2D3582CBFE5E900876AF3 /* AR_swiftUITestsLaunchTests.swift */; };
 		11F9DD5C2D0FC9E600B631C2 /* imgLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F9DD5B2D0FC9E600B631C2 /* imgLocal.swift */; };
 		11F9DD5E2D0FCBF500B631C2 /* apiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F9DD5D2D0FCBF500B631C2 /* apiServices.swift */; };
-		11FBEB812CDF0A960087598C /* OCRViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FBEB802CDF0A960087598C /* OCRViewPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +38,6 @@
 
 /* Begin PBXFileReference section */
 		1128755E2CCBDAEA001FE3F5 /* ViewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCard.swift; sourceTree = "<group>"; };
-		1174FF542CFE0C9300359E00 /* UploadARImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadARImage.swift; sourceTree = "<group>"; };
-		11DA7B162CBFE9C9004AFCF9 /* APIFetchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFetchView.swift; sourceTree = "<group>"; };
-		11DA7B182CBFEA0B004AFCF9 /* ARViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewPage.swift; sourceTree = "<group>"; };
-		11E90F762CE88AF100A71D5E /* OCRCameraViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRCameraViewPage.swift; sourceTree = "<group>"; };
 		11F2D3382CBFE5E700876AF3 /* AR_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F2D33B2CBFE5E700876AF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11F2D33D2CBFE5E700876AF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,8 +50,13 @@
 		11F2D3582CBFE5E900876AF3 /* AR_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		11F9DD5B2D0FC9E600B631C2 /* imgLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imgLocal.swift; sourceTree = "<group>"; };
 		11F9DD5D2D0FCBF500B631C2 /* apiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiServices.swift; sourceTree = "<group>"; };
-		11FBEB802CDF0A960087598C /* OCRViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRViewPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		11E26D2E2D2ADC2200DE5038 /* AR_Local */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AR_Local; sourceTree = "<group>"; };
+		11E26D2F2D2ADC5200DE5038 /* AR_Cloud */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AR_Cloud; sourceTree = "<group>"; };
+		11E26D302D2ADC7300DE5038 /* OCR */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = OCR; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		11F2D3352CBFE5E700876AF3 /* Frameworks */ = {
@@ -110,16 +106,14 @@
 		11F2D33A2CBFE5E700876AF3 /* AR_swift */ = {
 			isa = PBXGroup;
 			children = (
+				11E26D302D2ADC7300DE5038 /* OCR */,
+				11E26D2F2D2ADC5200DE5038 /* AR_Cloud */,
+				11E26D2E2D2ADC2200DE5038 /* AR_Local */,
 				11F2D33B2CBFE5E700876AF3 /* AppDelegate.swift */,
 				11F2D33D2CBFE5E700876AF3 /* ContentView.swift */,
-				11DA7B182CBFEA0B004AFCF9 /* ARViewPage.swift */,
-				11DA7B162CBFE9C9004AFCF9 /* APIFetchView.swift */,
 				11F2D33F2CBFE5E900876AF3 /* Assets.xcassets */,
 				11F2D3412CBFE5E900876AF3 /* Preview Content */,
 				1128755E2CCBDAEA001FE3F5 /* ViewCard.swift */,
-				11FBEB802CDF0A960087598C /* OCRViewPage.swift */,
-				11E90F762CE88AF100A71D5E /* OCRCameraViewPage.swift */,
-				1174FF542CFE0C9300359E00 /* UploadARImage.swift */,
 				11F9DD5B2D0FC9E600B631C2 /* imgLocal.swift */,
 				11F9DD5D2D0FCBF500B631C2 /* apiServices.swift */,
 			);
@@ -165,6 +159,11 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				11E26D2E2D2ADC2200DE5038 /* AR_Local */,
+				11E26D2F2D2ADC5200DE5038 /* AR_Cloud */,
+				11E26D302D2ADC7300DE5038 /* OCR */,
 			);
 			name = AR_swift;
 			productName = AR_swift;
@@ -281,15 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11DA7B172CBFE9C9004AFCF9 /* APIFetchView.swift in Sources */,
-				1174FF552CFE0C9300359E00 /* UploadARImage.swift in Sources */,
 				11F2D33E2CBFE5E700876AF3 /* ContentView.swift in Sources */,
 				11F9DD5C2D0FC9E600B631C2 /* imgLocal.swift in Sources */,
 				11F9DD5E2D0FCBF500B631C2 /* apiServices.swift in Sources */,
-				11E90F772CE88AF100A71D5E /* OCRCameraViewPage.swift in Sources */,
-				11DA7B192CBFEA0B004AFCF9 /* ARViewPage.swift in Sources */,
 				1128755F2CCBDAEA001FE3F5 /* ViewCard.swift in Sources */,
-				11FBEB812CDF0A960087598C /* OCRViewPage.swift in Sources */,
 				11F2D33C2CBFE5E700876AF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
